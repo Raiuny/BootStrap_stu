@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/nav_change.css">
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap4.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- 
+            表单：
+            1. 文本框
+            .form-control
+            multiple="multiple" 多选
+
+         -->
+         <div class="col-md-6">
+             <div class="input-group mb-6 input-group-md">
+                <input class = "form-control" placeholder="Search1" />
+                <input class = "form-control" placeholder="Search2"/>
+             </div>
+          <br/>
+         <select class="form-control" style="width:60%">
+             <option value="">请选择城市</option>
+             <option value="上海">上海</option>
+             <option value="北京">北京</option>
+             <option value="湖北">湖北</option>
+             <option value="广州">广州</option>
+         </select>
+         <hr/>
+         <form>
+            <div class="input-group mb-3 input-group-sm">
+               <div class="input-group-prepend">
+                 <span class="input-group-text">Small</span>
+                 <span class="input-group-text">Person</span>
+              </div>
+              <input type="text" class="form-control">
+            </div>
+          </form>
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Person</span>
+              </div>
+              <input type="text" class="form-control" placeholder="First Name">
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>  
+          </form>
+    </div>
+</div>
+</body>
+</html>

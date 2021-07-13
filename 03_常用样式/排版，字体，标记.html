@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid"style="background-color: thistle;">
+        <h1>
+            标题1
+            <small>副标题</small>
+        </h1>
+        <h2>
+            标题2
+            <small>副标题</small>
+        </h2>
+        <h3>
+            标题3
+            <small>副标题</small>
+        </h3>
+    </div>
+    <div class="container">
+        <h1>Display 标题</h1>
+        <p>Display 标题可以输出更大更粗的字体样式。</p>
+        <h1 class="display-1">Display 1 h1</h1>
+        <h1 class="display-2">Display 2 h1</h1>
+        <h1 class="display-3">Display 3 h1</h1>
+        <h1 class="display-4">Display 4 h1</h1>
+    </div>
+
+    <div class="container">
+        <h1>高亮文本</h1>  
+        <blockquote class="blockquote">  
+        <p>使用 <abbr title="mark的中文意思是标记">mark</abbr> 元素来 <mark style="color:red; background-color:yellow;">高亮</mark> 文本。</p>
+        <footer class="blockquote-footer">From <i>鲁迅</i></footer>
+        <!-- i 或者em可以让字体变为斜体 -->
+        </blockquote>
+        <dl>
+            <!-- day list -->
+            <dt>早上</dt>
+            <!-- day title -->
+            <dd>
+                - 学习vue
+            </dd>
+            <dd>
+                - 学习java
+            </dd>
+            <dt>下午</dt>
+            <dd>
+                - 学习Python
+            </dd>
+            <dd>
+                use <kbd style="background-color: rgb(149, 245, 94);">ctrl+i</kbd>添加内容
+            </dd>
+        </dl>
+        <pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.
+        </pre>
+
+
+        <!-- 字体颜色 -->
+        <div class="tex-muted">静音</div>
+        <div class="text-primary">主要</div>
+        <div class="text-success">成功</div>
+        <div class="text-info">信息</div>
+        <div class="text-danger">危险</div>
+        <div class="text-warning">警告</div>
+        <br/>
+        <br/>
+    </div>
+<!-- 
+    文本对齐：
+    作用于p标签：
+    .text-left
+    .text-right
+    .text-justify
+    .text-center
+ -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap4.min.js"></script>
+</body>
+</html>
